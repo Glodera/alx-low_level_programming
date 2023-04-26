@@ -1,14 +1,16 @@
 #include "main.h"
-
 /**
- * print_alphabet - print all alphabet in lowercase
+ * print_alphabet - print all alphabet in lowercase to the console.
+ * the console supports ASCII characters.
+ * Return: Always 0 (success)
  */
 void print_alphabet(void)
 {
-	char letter;
+	char c;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
 	_putchar('\n');
 }
